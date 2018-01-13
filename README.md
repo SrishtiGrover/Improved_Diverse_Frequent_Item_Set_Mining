@@ -9,14 +9,15 @@ To implement my algorithm, I have modified the source code of FP-Growth algorith
 
 ## Motivation
 
-I am Data Mining, Machine Learning and Natural Language Processing enthusiast, who likes to explores these domains. One such endeavour has been this project, where I have tried to improve the time complexity of diverse frequent item set mining.
+I am a Data Mining, Machine Learning and Natural Language Processing enthusiast, who likes to explore these domains. One such endeavour has been this project, where I have tried to improve the time complexity of diverse frequent item set mining.
 
-## Installation
+## Installation and Running the Code
 
 To run this project, the following is required:
 1) JDK
 2) IDE- Eclipse, Netbeans, etc
 3) Dataset - The above codes can be run on a dataset similar to Mushroom dataset 
+4) SPMF Library- The two files present in this repository require the support of files present in SPMF library. These two can be included as jar files in the library or can be run as separate class files. 
 
 ## Contributors
 
