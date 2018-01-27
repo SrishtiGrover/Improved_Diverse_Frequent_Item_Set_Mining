@@ -16,8 +16,8 @@ public class MainTestFPGrowth_saveToFile {
 
 	public static void main(String [] arg) throws FileNotFoundException, IOException{
 		// the file paths
-		String input = "C:/Users/Sonakshi Grover/Desktop/iiitd/3rd summer term/Research Data mining/code/mushroom.txt";  // the database
-		String output = "C:/Users/Sonakshi Grover/Desktop/output.txt";  // the path for saving the frequent itemsets found
+		String input = "C:/Users/SRISHTI/Documents/GitHub/Improved_Diverse_Frequent_Item_Set_Mining/ca/pfv/spmf/input/diverse_data/mushroom.txt";  // the database
+		String output = "C:/Users/SRISHTI/Documents/GitHub/Improved_Diverse_Frequent_Item_Set_Mining/ca/pfv/spmf/output.txt";  // the path for saving the frequent itemsets found
 		
 		double minsup = 0.4; // means a minsup of 2 transaction (we used a relative support)
 
