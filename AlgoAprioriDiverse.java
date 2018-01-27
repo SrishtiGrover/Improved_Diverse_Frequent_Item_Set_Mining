@@ -111,7 +111,7 @@ public class AlgoAprioriDiverse {
 		totalCandidateCount = 0;
 		// reset the utility for checking the memory usage
 		MemoryLogger.getInstance().reset();
-		Map<String,String> encode = Encode("C:/Users/Sonakshi Grover/workspace1/fp growth/ca/pfv/spmf/algorithms/frequentpatterns/apriori_diverse/hierarchy.txt");
+		Map<String,String> encode = Encode("/workspace1/fp growth/ca/pfv/spmf/algorithms/frequentpatterns/apriori_diverse/hierarchy.txt");
 		
 		// READ THE INPUT FILE
 		// variable to count the number of transactions
