@@ -1,3 +1,8 @@
+
+// provide the required file paths for the input and output files
+// as values for string input and string output
+
+
 package ca.pfv.spmf.test;
 
 import java.io.FileNotFoundException;
