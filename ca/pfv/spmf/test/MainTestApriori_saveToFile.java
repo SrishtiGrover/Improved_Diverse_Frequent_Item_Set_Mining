@@ -1,3 +1,6 @@
+// Add the required file paths for the input and output files
+// in the string input and output variables
+
 package ca.pfv.spmf.test;
 
 import java.io.IOException;
