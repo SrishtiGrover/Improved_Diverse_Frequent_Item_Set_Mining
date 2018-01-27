@@ -116,7 +116,7 @@ public class AlgoFPGrowthDiverse
 		MemoryLogger.getInstance().checkMemory();
 		
 		///// ************************************* IMPROVE***********************
-		Map<String,String> encode = Encode("C:/Users/Sonakshi Grover/workspace1/fp growth/ca/pfv/spmf/algorithms/frequentpatterns/apriori_diverse/hierarchy.txt");
+		Map<String,String> encode = Encode("/workspace1/fp growth/ca/pfv/spmf/algorithms/frequentpatterns/apriori_diverse/hierarchy.txt");
 		
 		float plf[] = new float[10];  //  ///// ***************** change if concept heirarchy is higher than 10
 		int lev;
