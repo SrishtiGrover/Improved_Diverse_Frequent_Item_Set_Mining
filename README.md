@@ -14,21 +14,25 @@ I am a Data Mining, Machine Learning and Natural Language Processing enthusiast,
 
 ## Installation and Running the Code
 
-#Requirements
+*Requirements
 To run this project, the following is required:
 1) JDK
 2) IDE- Eclipse, Netbeans, etc
 3) Dataset - The above codes can be run on a dataset similar to Mushroom dataset 
 4) SPMF Library- 
 
-#Modified Folders and Files Description:
+*Modified Folders and Files Description:
 I have added two folders - fpgrowth_diverse and apriori_diverse (with file path: Improved_Diverse_Frequent_Item_Set_Mining/ca/pfv/spmf/algorithms/frequentpatterns/)
-The main file of my project is : OurDiverse_Main which is present in the 'test' folder (with file path : Improved_Diverse_Frequent_Item_Set_Mining/ca/pfv/spmf/test)
+
+The main file of my project is : OurDiverse_Main which is present in the 'test' folder (with file path - Improved_Diverse_Frequent_Item_Set_Mining/ca/pfv/spmf/test)
+
 This main file calls the two files :
 1. AlgoFPGrowthDiverse.java (with file path: ca/pfv/spmf/algorithms/frequentpatterns/fpgrowth_diverse/) 
 2. AlgoAprioriDiverse.java (with file path: ca/pfv/spmf/algorithms/frequentpatterns/apriori_diverse/)
 These two files require the support of files present in SPMF library and can be included as jar files in the library or can be run as separate class files. 
+
 The input data is present in the 2 text files- mushroom.txt and hierarchy.txt which can be found in  Improved_Diverse_Frequent_Item_Set_Mining/ca/pfv/spmf/input/diverse_data
+
 The output data is saved in the 2 text files- output_DiverseApriori.txt and output_DiverseFpgrowth.txt which can be found in  Improved_Diverse_Frequent_Item_Set_Mining/ca/pfv/spmf/output
 
 ## Contributors
