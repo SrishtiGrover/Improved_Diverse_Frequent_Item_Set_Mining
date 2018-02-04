@@ -14,11 +14,20 @@ I am a Data Mining, Machine Learning and Natural Language Processing enthusiast,
 
 ## Installation and Running the Code
 
+#Requirements
 To run this project, the following is required:
 1) JDK
 2) IDE- Eclipse, Netbeans, etc
 3) Dataset - The above codes can be run on a dataset similar to Mushroom dataset 
-4) SPMF Library- The two files present in this repository require the support of files present in SPMF library. These two can be included as jar files in the library or can be run as separate class files. 
+4) SPMF Library- 
+
+#Modified Folders and Files Description:
+I have two folders- fpgrowth_diverse and apriori_diverse (with file path: ca/pfv/spmf/algorithms/frequentpatterns/)
+The main files of my project are : 
+1. AlgoFPGrowthDiverse.java (with file path: ca/pfv/spmf/algorithms/frequentpatterns/fpgrowth_diverse/) 
+2. AlgoAprioriDiverse.java (with file path: ca/pfv/spmf/algorithms/frequentpatterns/apriori_diverse/)
+
+These two files require the support of files present in SPMF library and can be included as jar files in the library or can be run as separate class files. 
 
 ## Contributors
 
