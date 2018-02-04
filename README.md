@@ -5,8 +5,8 @@
 
 ## Code Description
 
-To implement my algorithm, I have modified the source code of FP-Growth algorithm present in SPMF library. SPMF is an open-source data mining library written in Java, specialized in pattern mining. I have used the spmf.zip file source code of SPMF Library provided at the site: http://www.philippe-fournier-viger.com/spmf/index.php?link=download.php 
-All the instructions for installing and running the source codecan be found at:http://www.philippe-fournier-viger.com/spmf/how_to_install.txt . Moreover, information about the source code organization can be found by reading the developer's guide: http://www.philippe-fournier-viger.com/spmf/developers.php
+To implement my algorithm, I have modified the source code of FP-Growth algorithm present in SPMF library. SPMF is an open-source data mining library written in Java, specialized in pattern mining. I have used the spmf.zip file source code of SPMF Library provided at the site: http://www.philippe-fournier-viger.com/spmf/index.php?link=download.php .
+All the instructions for installing and running the source code can be found at:http://www.philippe-fournier-viger.com/spmf/how_to_install.txt . Moreover, information about the source code organization can be found by reading the developer's guide: http://www.philippe-fournier-viger.com/spmf/developers.php
 
 ## Motivation
 
