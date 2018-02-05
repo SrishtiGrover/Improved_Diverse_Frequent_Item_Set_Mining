@@ -1,7 +1,8 @@
 # Improved_Diverse_Frequent_Item_Set_Mining
 
 ## Synopsis
- I have proposed a new algorithm that improves the time complexity of mining diverse frequent item sets from large sized datasets by simultaneously mining diverse item sets and frequent item sets and thus reducing the search space for mining.
+While exploring some data mining projects and research papers, my interest was ignited by research paper on diverse frequent item set mining. After going through this paper, I decided to implement it and tried proposing my own algorithm. The link for the paper that I referred is - https://www.cse.iitb.ac.in/~comad/2011/images/papers/research/5_bw_comad2011_submission_43_discovering%20diverse-frequent%20patterns%20in%20a%20transacational%20database.pdf. 
+I have proposed a new algorithm that improves the time complexity of mining diverse frequent item sets from large sized datasets by simultaneously mining diverse item sets and frequent item sets and thus reducing the search space for mining.
 
 ## Code Description
 
