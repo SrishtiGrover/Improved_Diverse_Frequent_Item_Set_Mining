@@ -1,12 +1,12 @@
 # Improved_Diverse_Frequent_Item_Set_Mining
 
 ## Synopsis
-While exploring some data mining projects and research papers, my interest was ignited by research paper on diverse frequent item set mining. After going through this paper, I decided to implement it and tried proposing my own algorithm. The link for the paper that I referred is https://www.cse.iitb.ac.in/~comad/2011/images/papers/research/5_bw_comad2011_submission_43_discovering%20diverse-frequent%20patterns%20in%20a%20transacational%20database.pdf. 
-I have proposed a new algorithm that improves the time complexity of mining diverse frequent item sets from large sized datasets by simultaneously mining diverse item sets and frequent item sets and thus reducing the search space for mining.
+While exploring some data mining projects and research papers, my interest was ignited by a research paper on diverse frequent item set mining. The paper can be downloaded from the link-https://www.cse.iitb.ac.in/~comad/2011/images/papers/research/5_bw_comad2011_submission_43_discovering%20diverse-frequent%20patterns%20in%20a%20transacational%20database.pdf . 
+It introduces a new interestingness measure called 'Diverse Rank' to rank frequent item patterns on the basis of their items' categories. After going through this paper, I decided to implement it. After successfully implementing it, I then tried modifying the algorithm proposed in that paper and came up with my own new algorithm. As compared to the previous algorithm, this new algorithm improves the time complexity of mining diverse frequent item sets from large sized datasets by simultaneously mining diverse item sets and frequent item sets and thus reducing the search space for mining.
 
 ## Code Description
 
-To implement my algorithm, I have modified the source code of FP-Growth algorithm present in SPMF library. SPMF is an open-source data mining library written in Java, specialized in pattern mining. I have used the spmf.zip file source code of SPMF Library provided at the site: http://www.philippe-fournier-viger.com/spmf/index.php?link=download.php .
+To implement my algorithm, I have modified the source code of Apriori and FP-Growth algorithms present in SPMF library. SPMF is an open-source data mining library written in Java, specialized in pattern mining. I have used the spmf.zip file source code of SPMF Library provided at the site: http://www.philippe-fournier-viger.com/spmf/index.php?link=download.php .
 All the instructions for installing and running the source code can be found at:http://www.philippe-fournier-viger.com/spmf/how_to_install.txt . Moreover, information about the source code organization can be found by reading the developer's guide: http://www.philippe-fournier-viger.com/spmf/developers.php
 
 ## Motivation
