@@ -1,9 +1,14 @@
 # Improved_Diverse_Frequent_Item_Set_Mining
 
 ## Synopsis
+
 While exploring some data mining projects and research papers, my interest was ignited by a research paper on diverse frequent item set mining. The paper can be downloaded from the following link-
 https://www.cse.iitb.ac.in/~comad/2011/images/papers/research/5_bw_comad2011_submission_43_discovering%20diverse-frequent%20patterns%20in%20a%20transacational%20database.pdf . 
 It introduces a new interestingness measure called 'Diverse Rank' to rank frequent item patterns on the basis of their items' categories. After going through this paper, I decided to implement it. After successfully implementing it, I then tried modifying the algorithm proposed in that paper and came up with my own new algorithm. As compared to the previous algorithm, this new algorithm improves the time complexity of mining diverse frequent item sets from large sized datasets by simultaneously mining diverse item sets and frequent item sets and thus reducing the search space for mining.
+
+## Dataset Description
+
+I have used Mushroom dataset (that can be downloaded from- https://archive.ics.uci.edu/ml/datasets/mushroom) for running my algorithm. The dataset contains 8124 instances and 22 attributes. I later plan to test my work on a grocery transactional database.
 
 ## Code Description
 
